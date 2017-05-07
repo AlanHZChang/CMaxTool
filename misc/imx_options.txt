@@ -1,0 +1,85 @@
+prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-gcc
+ -I vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0301/libchromatix/chromatix_imx132/preview/../../../
+ -I vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0301/libchromatix/chromatix_imx132/preview/../../../../../module/
+ -I vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0301/libchromatix/chromatix_imx132/preview/../../../../../../../../../common/
+ -I chromatix_imx132_preview.h
+ -I out/target/product/v03/obj/KERNEL_OBJ/usr/include
+ -I vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0301/libchromatix/chromatix_imx132/preview
+ -I out/target/product/v03/obj/SHARED_LIBRARIES/libchromatix_imx132_preview_intermediates
+ -I libnativehelper/include/nativehelper 
+ -isystem system/core/include
+ -isystem hardware/libhardware/include
+ -isystem hardware/libhardware_legacy/include
+ -isystem hardware/ril/include
+ -isystem libnativehelper/include
+ -isystem frameworks/native/include
+ -isystem frameworks/native/opengl/include
+ -isystem frameworks/av/include
+ -isystem frameworks/base/include
+ -isystem external/skia/include
+ -isystem out/target/product/v03/obj/include
+ -isystem bionic/libc/arch-arm/include
+ -isystem bionic/libc/include
+ -isystem bionic/libstdc++/include
+ -isystem bionic/libc/kernel/common
+ -isystem bionic/libc/kernel/arch-arm
+ -isystem bionic/libm/include
+ -isystem bionic/libm/include/arm
+ -isystem bionic/libthread_db/include
+ -c 
+ -fno-exceptions
+ -Wno-multichar
+ -msoft-float
+ -fpic
+ -fPIE
+ -ffunction-sections
+ -fdata-sections
+ -funwind-tables
+ -fstack-protector
+ -Wa,--noexecstack
+ -Werror=format-security
+ -D_FORTIFY_SOURCE=1
+ -fno-short-enums
+ -march=armv7-a
+ -mfloat-abi=softfp
+ -mfpu=neon
+ -include build/core/combo/include/arch/linux-arm/AndroidConfig.h
+ -I build/core/combo/include/arch/linux-arm/
+ -Wno-unused-but-set-variable
+ -fno-builtin-sin
+ -fno-strict-volatile-bitfields
+ -Wno-psabi
+ -mthumb-interwork
+ -DANDROID
+ -fmessage-length=0
+ -W
+ -Wall
+ -Wno-unused
+ -Winit-self
+ -Wpointer-arith
+ -Werror=return-type
+ -Werror=non-virtual-dtor
+ -Werror=address
+ -Werror=sequence-point
+ -DNDEBUG
+ -g
+ -Wstrict-aliasing=2
+ -fgcse-after-reload
+ -frerun-cse-after-loop
+ -frename-registers
+ -DNDEBUG
+ -UDEBUG
+ -mthumb
+ -Os
+ -fomit-frame-pointer
+ -fno-strict-aliasing  
+ -DAMSS_VERSION=
+ -D_ANDROID_
+ -DHW_ENCODE
+ -DCONFIG_MSG_THESHOLD=350
+ -DLOGE=ALOGE 
+ -include camera_defs_i.h   
+ -MD
+ -MF out/target/product/v03/obj/SHARED_LIBRARIES/libchromatix_imx132_preview_intermediates/chromatix_imx132_preview.d
+ -o out/target/product/v03/obj/SHARED_LIBRARIES/libchromatix_imx132_preview_intermediates/chromatix_imx132_preview.o 
+ vendor/qcom/proprietary/mm-camera/mm-camera2/media-controller/modules/sensors/chromatix/0301/libchromatix/chromatix_imx132/preview/chromatix_imx132_preview.c

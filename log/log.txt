@@ -1,0 +1,728 @@
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\3A\4k_preview\chromatix_imx258_front_4k_preview_bu64244gwz.o .\src\0309\chromatix_imx258_front\3A\4k_preview\chromatix_imx258_front_4k_preview_bu64244gwz.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_4k_preview_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\4k_preview\chromatix_imx258_front_4k_preview_bu64244gwz.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\3A\4k_preview\chromatix_imx258_front_4k_preview_bu64244gwz.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_4k_preview_bu64244gwz.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_4k_preview_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\4k_preview\chromatix_imx258_front_4k_preview_bu64244gwz.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\3A\4k_preview\chromatix_imx258_front_4k_preview_bu64244gwz.o -o .\out\libchromatix_imx258_front_4k_preview_bu64244gwz.so -shared -o .\out\libchromatix_imx258_front_4k_preview_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\4k_preview\chromatix_imx258_front_4k_preview_bu64244gwz.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\3A\4k_video\chromatix_imx258_front_4k_video_bu64244gwz.o .\src\0309\chromatix_imx258_front\3A\4k_video\chromatix_imx258_front_4k_video_bu64244gwz.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_4k_video_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\4k_video\chromatix_imx258_front_4k_video_bu64244gwz.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\3A\4k_video\chromatix_imx258_front_4k_video_bu64244gwz.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_4k_video_bu64244gwz.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_4k_video_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\4k_video\chromatix_imx258_front_4k_video_bu64244gwz.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\3A\4k_video\chromatix_imx258_front_4k_video_bu64244gwz.o -o .\out\libchromatix_imx258_front_4k_video_bu64244gwz.so -shared -o .\out\libchromatix_imx258_front_4k_video_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\4k_video\chromatix_imx258_front_4k_video_bu64244gwz.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\3A\default_preview\chromatix_imx258_front_default_preview_bu64244gwz.o .\src\0309\chromatix_imx258_front\3A\default_preview\chromatix_imx258_front_default_preview_bu64244gwz.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_default_preview_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\default_preview\chromatix_imx258_front_default_preview_bu64244gwz.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\3A\default_preview\chromatix_imx258_front_default_preview_bu64244gwz.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_default_preview_bu64244gwz.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_default_preview_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\default_preview\chromatix_imx258_front_default_preview_bu64244gwz.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\3A\default_preview\chromatix_imx258_front_default_preview_bu64244gwz.o -o .\out\libchromatix_imx258_front_default_preview_bu64244gwz.so -shared -o .\out\libchromatix_imx258_front_default_preview_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\default_preview\chromatix_imx258_front_default_preview_bu64244gwz.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\3A\default_video\chromatix_imx258_front_default_video_bu64244gwz.o .\src\0309\chromatix_imx258_front\3A\default_video\chromatix_imx258_front_default_video_bu64244gwz.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_default_video_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\default_video\chromatix_imx258_front_default_video_bu64244gwz.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\3A\default_video\chromatix_imx258_front_default_video_bu64244gwz.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_default_video_bu64244gwz.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_default_video_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\default_video\chromatix_imx258_front_default_video_bu64244gwz.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\3A\default_video\chromatix_imx258_front_default_video_bu64244gwz.o -o .\out\libchromatix_imx258_front_default_video_bu64244gwz.so -shared -o .\out\libchromatix_imx258_front_default_video_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\default_video\chromatix_imx258_front_default_video_bu64244gwz.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\3A\hfr_120\chromatix_imx258_front_hfr_120_bu64244gwz.o .\src\0309\chromatix_imx258_front\3A\hfr_120\chromatix_imx258_front_hfr_120_bu64244gwz.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_hfr_120_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\hfr_120\chromatix_imx258_front_hfr_120_bu64244gwz.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\3A\hfr_120\chromatix_imx258_front_hfr_120_bu64244gwz.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_hfr_120_bu64244gwz.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_hfr_120_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\hfr_120\chromatix_imx258_front_hfr_120_bu64244gwz.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\3A\hfr_120\chromatix_imx258_front_hfr_120_bu64244gwz.o -o .\out\libchromatix_imx258_front_hfr_120_bu64244gwz.so -shared -o .\out\libchromatix_imx258_front_hfr_120_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\hfr_120\chromatix_imx258_front_hfr_120_bu64244gwz.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\3A\hfr_60\chromatix_imx258_front_hfr_60_bu64244gwz.o .\src\0309\chromatix_imx258_front\3A\hfr_60\chromatix_imx258_front_hfr_60_bu64244gwz.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_hfr_60_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\hfr_60\chromatix_imx258_front_hfr_60_bu64244gwz.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\3A\hfr_60\chromatix_imx258_front_hfr_60_bu64244gwz.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_hfr_60_bu64244gwz.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_hfr_60_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\hfr_60\chromatix_imx258_front_hfr_60_bu64244gwz.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\3A\hfr_60\chromatix_imx258_front_hfr_60_bu64244gwz.o -o .\out\libchromatix_imx258_front_hfr_60_bu64244gwz.so -shared -o .\out\libchromatix_imx258_front_hfr_60_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\hfr_60\chromatix_imx258_front_hfr_60_bu64244gwz.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\3A\hfr_90\chromatix_imx258_front_hfr_90_bu64244gwz.o .\src\0309\chromatix_imx258_front\3A\hfr_90\chromatix_imx258_front_hfr_90_bu64244gwz.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_hfr_90_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\hfr_90\chromatix_imx258_front_hfr_90_bu64244gwz.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\3A\hfr_90\chromatix_imx258_front_hfr_90_bu64244gwz.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_hfr_90_bu64244gwz.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_hfr_90_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\hfr_90\chromatix_imx258_front_hfr_90_bu64244gwz.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\3A\hfr_90\chromatix_imx258_front_hfr_90_bu64244gwz.o -o .\out\libchromatix_imx258_front_hfr_90_bu64244gwz.so -shared -o .\out\libchromatix_imx258_front_hfr_90_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\hfr_90\chromatix_imx258_front_hfr_90_bu64244gwz.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\3A\zsl_preview\chromatix_imx258_front_zsl_preview_bu64244gwz.o .\src\0309\chromatix_imx258_front\3A\zsl_preview\chromatix_imx258_front_zsl_preview_bu64244gwz.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_zsl_preview_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\zsl_preview\chromatix_imx258_front_zsl_preview_bu64244gwz.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\3A\zsl_preview\chromatix_imx258_front_zsl_preview_bu64244gwz.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_zsl_preview_bu64244gwz.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_zsl_preview_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\zsl_preview\chromatix_imx258_front_zsl_preview_bu64244gwz.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\3A\zsl_preview\chromatix_imx258_front_zsl_preview_bu64244gwz.o -o .\out\libchromatix_imx258_front_zsl_preview_bu64244gwz.so -shared -o .\out\libchromatix_imx258_front_zsl_preview_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\zsl_preview\chromatix_imx258_front_zsl_preview_bu64244gwz.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\3A\zsl_video\chromatix_imx258_front_zsl_video_bu64244gwz.o .\src\0309\chromatix_imx258_front\3A\zsl_video\chromatix_imx258_front_zsl_video_bu64244gwz.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_zsl_video_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\zsl_video\chromatix_imx258_front_zsl_video_bu64244gwz.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\3A\zsl_video\chromatix_imx258_front_zsl_video_bu64244gwz.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_zsl_video_bu64244gwz.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_zsl_video_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\zsl_video\chromatix_imx258_front_zsl_video_bu64244gwz.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\3A\zsl_video\chromatix_imx258_front_zsl_video_bu64244gwz.o -o .\out\libchromatix_imx258_front_zsl_video_bu64244gwz.so -shared -o .\out\libchromatix_imx258_front_zsl_video_bu64244gwz.so .\src\0309\chromatix_imx258_front\3A\zsl_video\chromatix_imx258_front_zsl_video_bu64244gwz.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\common\chromatix_imx258_front_common.o .\src\0309\chromatix_imx258_front\common\chromatix_imx258_front_common.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_common.so .\src\0309\chromatix_imx258_front\common\chromatix_imx258_front_common.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\common\chromatix_imx258_front_common.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_common.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_common.so .\src\0309\chromatix_imx258_front\common\chromatix_imx258_front_common.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\common\chromatix_imx258_front_common.o -o .\out\libchromatix_imx258_front_common.so -shared -o .\out\libchromatix_imx258_front_common.so .\src\0309\chromatix_imx258_front\common\chromatix_imx258_front_common.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_120\chromatix_imx258_front_hfr_120_cpp.o .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_120\chromatix_imx258_front_hfr_120_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_cpp_hfr_120.so .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_120\chromatix_imx258_front_hfr_120_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\cpp\cpp_hfr_120\chromatix_imx258_front_hfr_120_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_cpp_hfr_120.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_cpp_hfr_120.so .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_120\chromatix_imx258_front_hfr_120_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\cpp\cpp_hfr_120\chromatix_imx258_front_hfr_120_cpp.o -o .\out\libchromatix_imx258_front_cpp_hfr_120.so -shared -o .\out\libchromatix_imx258_front_cpp_hfr_120.so .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_120\chromatix_imx258_front_hfr_120_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_60\chromatix_imx258_front_hfr_60_cpp.o .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_60\chromatix_imx258_front_hfr_60_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_cpp_hfr_60.so .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_60\chromatix_imx258_front_hfr_60_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\cpp\cpp_hfr_60\chromatix_imx258_front_hfr_60_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_cpp_hfr_60.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_cpp_hfr_60.so .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_60\chromatix_imx258_front_hfr_60_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\cpp\cpp_hfr_60\chromatix_imx258_front_hfr_60_cpp.o -o .\out\libchromatix_imx258_front_cpp_hfr_60.so -shared -o .\out\libchromatix_imx258_front_cpp_hfr_60.so .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_60\chromatix_imx258_front_hfr_60_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_90\chromatix_imx258_front_hfr_90_cpp.o .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_90\chromatix_imx258_front_hfr_90_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_cpp_hfr_90.so .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_90\chromatix_imx258_front_hfr_90_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\cpp\cpp_hfr_90\chromatix_imx258_front_hfr_90_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_cpp_hfr_90.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_cpp_hfr_90.so .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_90\chromatix_imx258_front_hfr_90_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\cpp\cpp_hfr_90\chromatix_imx258_front_hfr_90_cpp.o -o .\out\libchromatix_imx258_front_cpp_hfr_90.so -shared -o .\out\libchromatix_imx258_front_cpp_hfr_90.so .\src\0309\chromatix_imx258_front\cpp\cpp_hfr_90\chromatix_imx258_front_hfr_90_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\cpp\cpp_liveshot\chromatix_imx258_front_liveshot_cpp.o .\src\0309\chromatix_imx258_front\cpp\cpp_liveshot\chromatix_imx258_front_liveshot_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_cpp_liveshot.so .\src\0309\chromatix_imx258_front\cpp\cpp_liveshot\chromatix_imx258_front_liveshot_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\cpp\cpp_liveshot\chromatix_imx258_front_liveshot_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_cpp_liveshot.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_cpp_liveshot.so .\src\0309\chromatix_imx258_front\cpp\cpp_liveshot\chromatix_imx258_front_liveshot_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\cpp\cpp_liveshot\chromatix_imx258_front_liveshot_cpp.o -o .\out\libchromatix_imx258_front_cpp_liveshot.so -shared -o .\out\libchromatix_imx258_front_cpp_liveshot.so .\src\0309\chromatix_imx258_front\cpp\cpp_liveshot\chromatix_imx258_front_liveshot_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\cpp\cpp_preview\chromatix_imx258_front_preview_cpp.o .\src\0309\chromatix_imx258_front\cpp\cpp_preview\chromatix_imx258_front_preview_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_cpp_preview.so .\src\0309\chromatix_imx258_front\cpp\cpp_preview\chromatix_imx258_front_preview_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\cpp\cpp_preview\chromatix_imx258_front_preview_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_cpp_preview.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_cpp_preview.so .\src\0309\chromatix_imx258_front\cpp\cpp_preview\chromatix_imx258_front_preview_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\cpp\cpp_preview\chromatix_imx258_front_preview_cpp.o -o .\out\libchromatix_imx258_front_cpp_preview.so -shared -o .\out\libchromatix_imx258_front_cpp_preview.so .\src\0309\chromatix_imx258_front\cpp\cpp_preview\chromatix_imx258_front_preview_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\cpp\cpp_snapshot\chromatix_imx258_front_snapshot_cpp.o .\src\0309\chromatix_imx258_front\cpp\cpp_snapshot\chromatix_imx258_front_snapshot_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_cpp_snapshot.so .\src\0309\chromatix_imx258_front\cpp\cpp_snapshot\chromatix_imx258_front_snapshot_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\cpp\cpp_snapshot\chromatix_imx258_front_snapshot_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_cpp_snapshot.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_cpp_snapshot.so .\src\0309\chromatix_imx258_front\cpp\cpp_snapshot\chromatix_imx258_front_snapshot_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\cpp\cpp_snapshot\chromatix_imx258_front_snapshot_cpp.o -o .\out\libchromatix_imx258_front_cpp_snapshot.so -shared -o .\out\libchromatix_imx258_front_cpp_snapshot.so .\src\0309\chromatix_imx258_front\cpp\cpp_snapshot\chromatix_imx258_front_snapshot_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\cpp\cpp_video\chromatix_imx258_front_video_cpp.o .\src\0309\chromatix_imx258_front\cpp\cpp_video\chromatix_imx258_front_video_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_cpp_video.so .\src\0309\chromatix_imx258_front\cpp\cpp_video\chromatix_imx258_front_video_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\cpp\cpp_video\chromatix_imx258_front_video_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_cpp_video.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_cpp_video.so .\src\0309\chromatix_imx258_front\cpp\cpp_video\chromatix_imx258_front_video_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\cpp\cpp_video\chromatix_imx258_front_video_cpp.o -o .\out\libchromatix_imx258_front_cpp_video.so -shared -o .\out\libchromatix_imx258_front_cpp_video.so .\src\0309\chromatix_imx258_front\cpp\cpp_video\chromatix_imx258_front_video_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\cpp\cpp_video_4k\chromatix_imx258_front_video_4k_cpp.o .\src\0309\chromatix_imx258_front\cpp\cpp_video_4k\chromatix_imx258_front_video_4k_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_cpp_video_4k.so .\src\0309\chromatix_imx258_front\cpp\cpp_video_4k\chromatix_imx258_front_video_4k_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\cpp\cpp_video_4k\chromatix_imx258_front_video_4k_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_cpp_video_4k.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_cpp_video_4k.so .\src\0309\chromatix_imx258_front\cpp\cpp_video_4k\chromatix_imx258_front_video_4k_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\cpp\cpp_video_4k\chromatix_imx258_front_video_4k_cpp.o -o .\out\libchromatix_imx258_front_cpp_video_4k.so -shared -o .\out\libchromatix_imx258_front_cpp_video_4k.so .\src\0309\chromatix_imx258_front\cpp\cpp_video_4k\chromatix_imx258_front_video_4k_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\isp\hfr_120\chromatix_imx258_front_hfr_120.o .\src\0309\chromatix_imx258_front\isp\hfr_120\chromatix_imx258_front_hfr_120.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_hfr_120.so .\src\0309\chromatix_imx258_front\isp\hfr_120\chromatix_imx258_front_hfr_120.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\isp\hfr_120\chromatix_imx258_front_hfr_120.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_hfr_120.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_hfr_120.so .\src\0309\chromatix_imx258_front\isp\hfr_120\chromatix_imx258_front_hfr_120.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\isp\hfr_120\chromatix_imx258_front_hfr_120.o -o .\out\libchromatix_imx258_front_hfr_120.so -shared -o .\out\libchromatix_imx258_front_hfr_120.so .\src\0309\chromatix_imx258_front\isp\hfr_120\chromatix_imx258_front_hfr_120.o  
+Processing Android.mk:Android.mk
+Processing Android.mk:Android.mk
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_4k_preview_bu64244gwz.c
+	LOCAL_MODULE: libchromatix_imx258_front_4k_preview_bu64244gwz
+	Building: libchromatix_imx258_front_4k_preview_bu64244gwz
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_4k_video_bu64244gwz.c
+	LOCAL_MODULE: libchromatix_imx258_front_4k_video_bu64244gwz
+	Building: libchromatix_imx258_front_4k_video_bu64244gwz
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_default_preview_bu64244gwz.c
+	LOCAL_MODULE: libchromatix_imx258_front_default_preview_bu64244gwz
+	Building: libchromatix_imx258_front_default_preview_bu64244gwz
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_default_video_bu64244gwz.c
+	LOCAL_MODULE: libchromatix_imx258_front_default_video_bu64244gwz
+	Building: libchromatix_imx258_front_default_video_bu64244gwz
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_hfr_120_bu64244gwz.c
+	LOCAL_MODULE: libchromatix_imx258_front_hfr_120_bu64244gwz
+	Building: libchromatix_imx258_front_hfr_120_bu64244gwz
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_hfr_60_bu64244gwz.c
+	LOCAL_MODULE: libchromatix_imx258_front_hfr_60_bu64244gwz
+	Building: libchromatix_imx258_front_hfr_60_bu64244gwz
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_hfr_90_bu64244gwz.c
+	LOCAL_MODULE: libchromatix_imx258_front_hfr_90_bu64244gwz
+	Building: libchromatix_imx258_front_hfr_90_bu64244gwz
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_zsl_preview_bu64244gwz.c
+	LOCAL_MODULE: libchromatix_imx258_front_zsl_preview_bu64244gwz
+	Building: libchromatix_imx258_front_zsl_preview_bu64244gwz
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_zsl_video_bu64244gwz.c
+	LOCAL_MODULE: libchromatix_imx258_front_zsl_video_bu64244gwz
+	Building: libchromatix_imx258_front_zsl_video_bu64244gwz
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_common.c
+	LOCAL_MODULE: libchromatix_imx258_front_common
+	Building: libchromatix_imx258_front_common
+Processing Android.mk:Android.mk
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_hfr_120_cpp.c
+	LOCAL_MODULE: libchromatix_imx258_front_cpp_hfr_120
+	Building: libchromatix_imx258_front_cpp_hfr_120
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_hfr_60_cpp.c
+	LOCAL_MODULE: libchromatix_imx258_front_cpp_hfr_60
+	Building: libchromatix_imx258_front_cpp_hfr_60
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_hfr_90_cpp.c
+	LOCAL_MODULE: libchromatix_imx258_front_cpp_hfr_90
+	Building: libchromatix_imx258_front_cpp_hfr_90
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_liveshot_cpp.c
+	LOCAL_MODULE: libchromatix_imx258_front_cpp_liveshot
+	Building: libchromatix_imx258_front_cpp_liveshot
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_preview_cpp.c
+	LOCAL_MODULE: libchromatix_imx258_front_cpp_preview
+	Building: libchromatix_imx258_front_cpp_preview
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_snapshot_cpp.c
+	LOCAL_MODULE: libchromatix_imx258_front_cpp_snapshot
+	Building: libchromatix_imx258_front_cpp_snapshot
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_video_cpp.c
+	LOCAL_MODULE: libchromatix_imx258_front_cpp_video
+	Building: libchromatix_imx258_front_cpp_video
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_video_4k_cpp.c
+	LOCAL_MODULE: libchromatix_imx258_front_cpp_video_4k
+	Building: libchromatix_imx258_front_cpp_video_4k
+Processing Android.mk:Android.mk
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_hfr_120.c
+	LOCAL_MODULE: libchromatix_imx258_front_hfr_120
+	Building: libchromatix_imx258_front_hfr_120
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_hfr_60.c
+	LOCAL_MODULE: libchromatix_imx258_front_hfr_6
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\isp\hfr_60\chromatix_imx258_front_hfr_60.o .\src\0309\chromatix_imx258_front\isp\hfr_60\chromatix_imx258_front_hfr_60.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_hfr_60.so .\src\0309\chromatix_imx258_front\isp\hfr_60\chromatix_imx258_front_hfr_60.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\isp\hfr_60\chromatix_imx258_front_hfr_60.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_hfr_60.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_hfr_60.so .\src\0309\chromatix_imx258_front\isp\hfr_60\chromatix_imx258_front_hfr_60.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\isp\hfr_60\chromatix_imx258_front_hfr_60.o -o .\out\libchromatix_imx258_front_hfr_60.so -shared -o .\out\libchromatix_imx258_front_hfr_60.so .\src\0309\chromatix_imx258_front\isp\hfr_60\chromatix_imx258_front_hfr_60.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\isp\hfr_90\chromatix_imx258_front_hfr_90.o .\src\0309\chromatix_imx258_front\isp\hfr_90\chromatix_imx258_front_hfr_90.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_hfr_90.so .\src\0309\chromatix_imx258_front\isp\hfr_90\chromatix_imx258_front_hfr_90.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\isp\hfr_90\chromatix_imx258_front_hfr_90.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_hfr_90.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_hfr_90.so .\src\0309\chromatix_imx258_front\isp\hfr_90\chromatix_imx258_front_hfr_90.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\isp\hfr_90\chromatix_imx258_front_hfr_90.o -o .\out\libchromatix_imx258_front_hfr_90.so -shared -o .\out\libchromatix_imx258_front_hfr_90.so .\src\0309\chromatix_imx258_front\isp\hfr_90\chromatix_imx258_front_hfr_90.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\isp\liveshot\chromatix_imx258_front_liveshot.o .\src\0309\chromatix_imx258_front\isp\liveshot\chromatix_imx258_front_liveshot.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_liveshot.so .\src\0309\chromatix_imx258_front\isp\liveshot\chromatix_imx258_front_liveshot.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\isp\liveshot\chromatix_imx258_front_liveshot.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_liveshot.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_liveshot.so .\src\0309\chromatix_imx258_front\isp\liveshot\chromatix_imx258_front_liveshot.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\isp\liveshot\chromatix_imx258_front_liveshot.o -o .\out\libchromatix_imx258_front_liveshot.so -shared -o .\out\libchromatix_imx258_front_liveshot.so .\src\0309\chromatix_imx258_front\isp\liveshot\chromatix_imx258_front_liveshot.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\isp\preview\chromatix_imx258_front_preview.o .\src\0309\chromatix_imx258_front\isp\preview\chromatix_imx258_front_preview.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_preview.so .\src\0309\chromatix_imx258_front\isp\preview\chromatix_imx258_front_preview.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\isp\preview\chromatix_imx258_front_preview.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_preview.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_preview.so .\src\0309\chromatix_imx258_front\isp\preview\chromatix_imx258_front_preview.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\isp\preview\chromatix_imx258_front_preview.o -o .\out\libchromatix_imx258_front_preview.so -shared -o .\out\libchromatix_imx258_front_preview.so .\src\0309\chromatix_imx258_front\isp\preview\chromatix_imx258_front_preview.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\isp\snapshot\chromatix_imx258_front_snapshot.o .\src\0309\chromatix_imx258_front\isp\snapshot\chromatix_imx258_front_snapshot.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_snapshot.so .\src\0309\chromatix_imx258_front\isp\snapshot\chromatix_imx258_front_snapshot.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\isp\snapshot\chromatix_imx258_front_snapshot.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_snapshot.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_snapshot.so .\src\0309\chromatix_imx258_front\isp\snapshot\chromatix_imx258_front_snapshot.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\isp\snapshot\chromatix_imx258_front_snapshot.o -o .\out\libchromatix_imx258_front_snapshot.so -shared -o .\out\libchromatix_imx258_front_snapshot.so .\src\0309\chromatix_imx258_front\isp\snapshot\chromatix_imx258_front_snapshot.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\isp\video\chromatix_imx258_front_video.o .\src\0309\chromatix_imx258_front\isp\video\chromatix_imx258_front_video.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_default_video.so .\src\0309\chromatix_imx258_front\isp\video\chromatix_imx258_front_video.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\isp\video\chromatix_imx258_front_video.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_default_video.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_default_video.so .\src\0309\chromatix_imx258_front\isp\video\chromatix_imx258_front_video.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\isp\video\chromatix_imx258_front_video.o -o .\out\libchromatix_imx258_front_default_video.so -shared -o .\out\libchromatix_imx258_front_default_video.so .\src\0309\chromatix_imx258_front\isp\video\chromatix_imx258_front_video.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\isp\video_4k\chromatix_imx258_front_video_4k.o .\src\0309\chromatix_imx258_front\isp\video_4k\chromatix_imx258_front_video_4k.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_video_4k.so .\src\0309\chromatix_imx258_front\isp\video_4k\chromatix_imx258_front_video_4k.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\isp\video_4k\chromatix_imx258_front_video_4k.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_video_4k.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_video_4k.so .\src\0309\chromatix_imx258_front\isp\video_4k\chromatix_imx258_front_video_4k.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\isp\video_4k\chromatix_imx258_front_video_4k.o -o .\out\libchromatix_imx258_front_video_4k.so -shared -o .\out\libchromatix_imx258_front_video_4k.so .\src\0309\chromatix_imx258_front\isp\video_4k\chromatix_imx258_front_video_4k.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\postproc\chromatix_imx258_front_sw_post_proc.o .\src\0309\chromatix_imx258_front\postproc\chromatix_imx258_front_sw_post_proc.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_postproc.so .\src\0309\chromatix_imx258_front\postproc\chromatix_imx258_front_sw_post_proc.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\postproc\chromatix_imx258_front_sw_post_proc.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_postproc.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_postproc.so .\src\0309\chromatix_imx258_front\postproc\chromatix_imx258_front_sw_post_proc.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\postproc\chromatix_imx258_front_sw_post_proc.o -o .\out\libchromatix_imx258_front_postproc.so -shared -o .\out\libchromatix_imx258_front_postproc.so .\src\0309\chromatix_imx258_front\postproc\chromatix_imx258_front_sw_post_proc.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx258_front\versions\chromatix_imx258_front_versions.o .\src\0309\chromatix_imx258_front\versions\chromatix_imx258_front_versions.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx258_front_versions.so .\src\0309\chromatix_imx258_front\versions\chromatix_imx258_front_versions.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx258_front\versions\chromatix_imx258_front_versions.o -Wl,--whole-archive -o .\out\libchromatix_imx258_front_versions.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx258_front_versions.so .\src\0309\chromatix_imx258_front\versions\chromatix_imx258_front_versions.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx258_front\versions\chromatix_imx258_front_versions.o -o .\out\libchromatix_imx258_front_versions.so -shared -o .\out\libchromatix_imx258_front_versions.so .\src\0309\chromatix_imx258_front\versions\chromatix_imx258_front_versions.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\16M_preview\chromatix_imx298_16M_preview.o .\src\0309\chromatix_imx298\3A\16M_preview\chromatix_imx298_16M_preview.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_16M_preview.so .\src\0309\chromatix_imx298\3A\16M_preview\chromatix_imx298_16M_preview.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\16M_preview\chromatix_imx298_16M_preview.o -Wl,--whole-archive -o .\out\libchromatix_imx298_16M_preview.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_16M_preview.so .\src\0309\chromatix_imx298\3A\16M_preview\chromatix_imx298_16M_preview.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\16M_preview\chromatix_imx298_16M_preview.o -o .\out\libchromatix_imx298_16M_preview.so -shared -o .\out\libchromatix_imx298_16M_preview.so .\src\0309\chromatix_imx298\3A\16M_preview\chromatix_imx298_16M_preview.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\16M_video\chromatix_imx298_16M_video.o .\src\0309\chromatix_imx298\3A\16M_video\chromatix_imx298_16M_video.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_16M_video.so .\src\0309\chromatix_imx298\3A\16M_video\chromatix_imx298_16M_video.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\16M_video\chromatix_imx298_16M_video.o -Wl,--whole-archive -o .\out\libchromatix_imx298_16M_video.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_16M_video.so .\src\0309\chromatix_imx298\3A\16M_video\chromatix_imx298_16M_video.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\16M_video\chromatix_imx298_16M_video.o -o .\out\libchromatix_imx298_16M_video.so -shared -o .\out\libchromatix_imx298_16M_video.so .\src\0309\chromatix_imx298\3A\16M_video\chromatix_imx298_16M_video.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\default_preview\chromatix_imx298_default_preview.o .\src\0309\chromatix_imx298\3A\default_preview\chromatix_imx298_default_preview.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_default_preview.so .\src\0309\chromatix_imx298\3A\default_preview\chromatix_imx298_default_preview.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\default_preview\chromatix_imx298_default_preview.o -Wl,--whole-archive -o .\out\libchromatix_imx298_default_preview.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_default_preview.so .\src\0309\chromatix_imx298\3A\default_preview\chromatix_imx298_default_preview.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\default_preview\chromatix_imx298_default_preview.o -o .\out\libchromatix_imx298_default_preview.so -shared -o .\out\libchromatix_imx298_default_preview.so .\src\0309\chromatix_imx298\3A\default_preview\chromatix_imx298_default_preview.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\default_video\chromatix_imx298_default_video.o .\src\0309\chromatix_imx298\3A\default_video\chromatix_imx298_default_video.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_default_video.so .\src\0309\chromatix_imx298\3A\default_video\chromatix_imx298_default_video.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\default_video\chromatix_imx298_default_video.o -Wl,--whole-archive -o .\out\libchromatix_imx298_default_video.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_default_video.so .\src\0309\chromatix_imx298\3A\default_video\chromatix_imx298_default_video.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\default_video\chromatix_imx298_default_video.o -o .\out\libchromatix_imx298_default_video.so -shared -o .\out\libchromatix_imx298_default_video.so .\src\0309\chromatix_imx298\3A\default_video\chromatix_imx298_default_video.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\hdr_snapshot\chromatix_imx298_snapshot_hdr.o .\src\0309\chromatix_imx298\3A\hdr_snapshot\chromatix_imx298_snapshot_hdr.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_hdr_snapshot.so .\src\0309\chromatix_imx298\3A\hdr_snapshot\chromatix_imx298_snapshot_hdr.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\hdr_snapshot\chromatix_imx298_snapshot_hdr.o -Wl,--whole-archive -o .\out\libchromatix_imx298_hdr_snapshot.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_hdr_snapshot.so .\src\0309\chromatix_imx298\3A\hdr_snapshot\chromatix_imx298_snapshot_hdr.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\hdr_snapshot\chromatix_imx298_snapshot_hdr.o -o .\out\libchromatix_imx298_hdr_snapshot.so -shared -o .\out\libchromatix_imx298_hdr_snapshot.so .\src\0309\chromatix_imx298\3A\hdr_snapshot\chromatix_imx298_snapshot_hdr.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\hdr_video\chromatix_imx298_video_hdr.o .\src\0309\chromatix_imx298\3A\hdr_video\chromatix_imx298_video_hdr.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_hdr_video.so .\src\0309\chromatix_imx298\3A\hdr_video\chromatix_imx298_video_hdr.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\hdr_video\chromatix_imx298_video_hdr.o -Wl,--whole-archive -o .\out\libchromatix_imx298_hdr_video.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_hdr_video.so .\src\0309\chromatix_imx298\3A\hdr_video\chromatix_imx298_video_hdr.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\hdr_video\chromatix_imx298_video_hdr.o -o .\out\libchromatix_imx298_hdr_video.so -shared -o .\out\libchromatix_imx298_hdr_video.so .\src\0309\chromatix_imx298\3A\hdr_video\chromatix_imx298_video_hdr.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\hfr_120\chromatix_imx298_hfr_120_3a.o .\src\0309\chromatix_imx298\3A\hfr_120\chromatix_imx298_hfr_120_3a.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_hfr_120_3a.so .\src\0309\chromatix_imx298\3A\hfr_120\chromatix_imx298_hfr_120_3a.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\hfr_120\chromatix_imx298_hfr_120_3a.o -Wl,--whole-archive -o .\out\libchromatix_imx298_hfr_120_3a.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_hfr_120_3a.so .\src\0309\chromatix_imx298\3A\hfr_120\chromatix_imx298_hfr_120_3a.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\hfr_120\chromatix_imx298_hfr_120_3a.o -o .\out\libchromatix_imx298_hfr_120_3a.so -shared -o .\out\libchromatix_imx298_hfr_120_3a.so .\src\0309\chromatix_imx298\3A\hfr_120\chromatix_imx298_hfr_120_3a.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\hfr_60\chromatix_imx298_hfr_60_3a.o .\src\0309\chromatix_imx298\3A\hfr_60\chromatix_imx298_hfr_60_3a.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_hfr_60_3a.so .\src\0309\chromatix_imx298\3A\hfr_60\chromatix_imx298_hfr_60_3a.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\hfr_60\chromatix_imx298_hfr_60_3a.o -Wl,--whole-archive -o .\out\libchromatix_imx298_hfr_60_3a.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_hfr_60_3a.so .\src\0309\chromatix_imx298\3A\hfr_60\chromatix_imx298_hfr_60_3a.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\hfr_60\chromatix_imx298_hfr_60_3a.o -o .\out\libchromatix_imx298_hfr_60_3a.so -shared -o .\out\libchromatix_imx298_hfr_60_3a.so .\src\0309\chromatix_imx298\3A\hfr_60\chromatix_imx298_hfr_60_3a.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\hfr_90\chromatix_imx298_hfr_90_3a.o .\src\0309\chromatix_imx298\3A\hfr_90\chromatix_imx298_hfr_90_3a.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_hfr_90_3a.so .\src\0309\chromatix_imx298\3A\hfr_90\chromatix_imx298_hfr_90_3a.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\hfr_90\chromatix_imx298_hfr_90_3a.o -Wl,--whole-archive -o .\out\libchromatix_imx298_hfr_90_3a.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_hfr_90_3a.so .\src\0309\chromatix_imx298\3A\hfr_90\chromatix_imx298_hfr_90_3a.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\hfr_90\chromatix_imx298_hfr_90_3a.o -o .\out\libchromatix_imx298_hfr_90_3a.so -shared -o .\out\libchromatix_imx298_hfr_90_3a.so .\src\0309\chromatix_imx298\3A\hfr_90\chromatix_imx298_hfr_90_3a.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\zsl_preview\chromatix_imx298_zsl_preview.o .\src\0309\chromatix_imx298\3A\zsl_preview\chromatix_imx298_zsl_preview.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_zsl_preview.so .\src\0309\chromatix_imx298\3A\zsl_preview\chromatix_imx298_zsl_preview.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\zsl_preview\chromatix_imx298_zsl_preview.o -Wl,--whole-archive -o .\out\libchromatix_imx298_zsl_preview.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_zsl_preview.so .\src\0309\chromatix_imx298\3A\zsl_preview\chromatix_imx298_zsl_preview.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\zsl_preview\chromatix_imx298_zsl_preview.o -o .\out\libchromatix_imx298_zsl_preview.so -shared -o .\out\libchromatix_imx298_zsl_preview.so .\src\0309\chromatix_imx298\3A\zsl_preview\chromatix_imx298_zsl_preview.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\3A\zsl_video\chromatix_imx298_zsl_video.o .\src\0309\chromatix_imx298\3A\zsl_video\chromatix_imx298_zsl_video.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_zsl_video.so .\src\0309\chromatix_imx298\3A\zsl_video\chromatix_imx298_zsl_video.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\3A\zsl_video\chromatix_imx298_zsl_video.o -Wl,--whole-archive -o .\out\libchromatix_imx298_zsl_video.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_zsl_video.so .\src\0309\chromatix_imx298\3A\zsl_video\chromatix_imx298_zsl_video.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\3A\zsl_video\chromatix_imx298_zsl_video.o -o .\out\libchromatix_imx298_zsl_video.so -shared -o .\out\libchromatix_imx298_zsl_video.so .\src\0309\chromatix_imx298\3A\zsl_video\chromatix_imx298_zsl_video.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\common\chromatix_imx298_common.o .\src\0309\chromatix_imx298\common\chromatix_imx298_common.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_common.so .\src\0309\chromatix_imx298\common\chromatix_imx298_common.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\common\chromatix_imx298_common.o -Wl,--whole-archive -o .\out\libchromatix_imx298_common.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_common.so .\src\0309\chromatix_imx298\common\chromatix_imx298_common.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\common\chromatix_imx298_common.o -o .\out\libchromatix_imx298_common.so -shared -o .\out\libchromatix_imx298_common.so .\src\0309\chromatix_imx298\common\chromatix_imx298_common.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\cpp\cpp_hfr_120\chromatix_imx298_hfr_120_cpp.o .\src\0309\chromatix_imx298\cpp\cpp_hfr_120\chromatix_imx298_hfr_120_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_cpp_hfr_120.so .\src\0309\chromatix_imx298\cpp\cpp_hfr_120\chromatix_imx298_hfr_120_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\cpp\cpp_hfr_120\chromatix_imx298_hfr_120_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx298_cpp_hfr_120.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_cpp_hfr_120.so .\src\0309\chromatix_imx298\cpp\cpp_hfr_120\chromatix_imx298_hfr_120_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\cpp\cpp_hfr_120\chromatix_imx298_hfr_120_cpp.o -o .\out\libchromatix_imx298_cpp_hfr_120.so -shared -o .\out\libchromatix_imx298_cpp_hfr_120.so .\src\0309\chromatix_imx298\cpp\cpp_hfr_120\chromatix_imx298_hfr_120_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\cpp\cpp_hfr_60\chromatix_imx298_hfr_60_cpp.o .\src\0309\chromatix_imx298\cpp\cpp_hfr_60\chromatix_imx298_hfr_60_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_cpp_hfr_60.so .\src\0309\chromatix_imx298\cpp\cpp_hfr_60\chromatix_imx298_hfr_60_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\cpp\cpp_hfr_60\chromatix_imx298_hfr_60_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx298_cpp_hfr_60.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_cpp_hfr_60.so .\src\0309\chromatix_imx298\cpp\cpp_hfr_60\chromatix_imx298_hfr_60_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\cpp\cpp_hfr_60\chromatix_imx298_hfr_60_cpp.o -o .\out\libchromatix_imx298_cpp_hfr_60.so -shared -o .\out\libchromatix_imx298_cpp_hfr_60.so .\src\0309\chromatix_imx298\cpp\cpp_hfr_60\chromatix_imx298_hfr_60_cpp.o  
+0
+	Building: libchromatix_imx258_front_hfr_60
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_hfr_90.c
+	LOCAL_MODULE: libchromatix_imx258_front_hfr_90
+	Building: libchromatix_imx258_front_hfr_90
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_liveshot.c
+	LOCAL_MODULE: libchromatix_imx258_front_liveshot
+	Building: libchromatix_imx258_front_liveshot
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_preview.c
+	LOCAL_MODULE: libchromatix_imx258_front_preview
+	Building: libchromatix_imx258_front_preview
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_snapshot.c
+	LOCAL_MODULE: libchromatix_imx258_front_snapshot
+	Building: libchromatix_imx258_front_snapshot
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_video.c
+	LOCAL_MODULE: libchromatix_imx258_front_default_video
+	Building: libchromatix_imx258_front_default_video
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_video_4k.c
+	LOCAL_MODULE: libchromatix_imx258_front_video_4k
+	Building: libchromatix_imx258_front_video_4k
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_sw_post_proc.c
+	LOCAL_MODULE: libchromatix_imx258_front_postproc
+	Building: libchromatix_imx258_front_postproc
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx258_front_versions.c
+	LOCAL_MODULE: libchromatix_imx258_front_versions
+	Building: libchromatix_imx258_front_versions
+Processing Android.mk:Android.mk
+Processing Android.mk:Android.mk
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_16M_preview.c
+	LOCAL_MODULE: libchromatix_imx298_16M_preview
+	Building: libchromatix_imx298_16M_preview
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_16M_video.c
+	LOCAL_MODULE: libchromatix_imx298_16M_video
+	Building: libchromatix_imx298_16M_video
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_default_preview.c
+	LOCAL_MODULE: libchromatix_imx298_default_preview
+	Building: libchromatix_imx298_default_preview
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_default_video.c
+	LOCAL_MODULE: libchromatix_imx298_default_video
+	Building: libchromatix_imx298_default_video
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_snapshot_hdr.c
+	LOCAL_MODULE: libchromatix_imx298_hdr_snapshot
+	Building: libchromatix_imx298_hdr_snapshot
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_video_hdr.c
+	LOCAL_MODULE: libchromatix_imx298_hdr_video
+	Building: libchromatix_imx298_hdr_video
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_hfr_120_3a.c
+	LOCAL_MODULE: libchromatix_imx298_hfr_120_3a
+	Building: libchromatix_imx298_hfr_120_3a
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_hfr_60_3a.c
+	LOCAL_MODULE: libchromatix_imx298_hfr_60_3a
+	Building: libchromatix_imx298_hfr_60_3a
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_hfr_90_3a.c
+	LOCAL_MODULE: libchromatix_imx298_hfr_90_3a
+	Building: libchromatix_imx298_hfr_90_3a
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_zsl_preview.c
+	LOCAL_MODULE: libchromatix_imx298_zsl_preview
+	Building: libchromatix_imx298_zsl_preview
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_zsl_video.c
+	LOCAL_MODULE: libchromatix_imx298_zsl_video
+	Building: libchromatix_imx298_zsl_video
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_common.c
+	LOCAL_MODULE: libchromatix_imx298_common
+	Building: libchromatix_imx298_common
+Processing Android.mk:Android.mk
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_hfr_120_cpp.c
+	LOCAL_MODULE: libchromatix_imx298_cpp_hfr_120
+	Building: libchromatix_imx298_cpp_hfr_120
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_hfr_60_cpp.c
+	LOCAL_MODULE: libchromatix_imx298_cpp_hfr_60
+	Building: libchromatix_imx298_cpp_hfr_60
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_hfr_90_cpp.c
+	LOCAL_MODULE: libchromatix_imx298_cpp_hfr
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\cpp\cpp_hfr_90\chromatix_imx298_hfr_90_cpp.o .\src\0309\chromatix_imx298\cpp\cpp_hfr_90\chromatix_imx298_hfr_90_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_cpp_hfr_90.so .\src\0309\chromatix_imx298\cpp\cpp_hfr_90\chromatix_imx298_hfr_90_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\cpp\cpp_hfr_90\chromatix_imx298_hfr_90_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx298_cpp_hfr_90.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_cpp_hfr_90.so .\src\0309\chromatix_imx298\cpp\cpp_hfr_90\chromatix_imx298_hfr_90_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\cpp\cpp_hfr_90\chromatix_imx298_hfr_90_cpp.o -o .\out\libchromatix_imx298_cpp_hfr_90.so -shared -o .\out\libchromatix_imx298_cpp_hfr_90.so .\src\0309\chromatix_imx298\cpp\cpp_hfr_90\chromatix_imx298_hfr_90_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\cpp\cpp_liveshot\chromatix_imx298_liveshot_cpp.o .\src\0309\chromatix_imx298\cpp\cpp_liveshot\chromatix_imx298_liveshot_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_cpp_liveshot.so .\src\0309\chromatix_imx298\cpp\cpp_liveshot\chromatix_imx298_liveshot_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\cpp\cpp_liveshot\chromatix_imx298_liveshot_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx298_cpp_liveshot.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_cpp_liveshot.so .\src\0309\chromatix_imx298\cpp\cpp_liveshot\chromatix_imx298_liveshot_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\cpp\cpp_liveshot\chromatix_imx298_liveshot_cpp.o -o .\out\libchromatix_imx298_cpp_liveshot.so -shared -o .\out\libchromatix_imx298_cpp_liveshot.so .\src\0309\chromatix_imx298\cpp\cpp_liveshot\chromatix_imx298_liveshot_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\cpp\cpp_preview\chromatix_imx298_preview_cpp.o .\src\0309\chromatix_imx298\cpp\cpp_preview\chromatix_imx298_preview_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_cpp_preview.so .\src\0309\chromatix_imx298\cpp\cpp_preview\chromatix_imx298_preview_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\cpp\cpp_preview\chromatix_imx298_preview_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx298_cpp_preview.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_cpp_preview.so .\src\0309\chromatix_imx298\cpp\cpp_preview\chromatix_imx298_preview_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\cpp\cpp_preview\chromatix_imx298_preview_cpp.o -o .\out\libchromatix_imx298_cpp_preview.so -shared -o .\out\libchromatix_imx298_cpp_preview.so .\src\0309\chromatix_imx298\cpp\cpp_preview\chromatix_imx298_preview_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\cpp\cpp_snapshot\chromatix_imx298_snapshot_cpp.o .\src\0309\chromatix_imx298\cpp\cpp_snapshot\chromatix_imx298_snapshot_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_cpp_snapshot.so .\src\0309\chromatix_imx298\cpp\cpp_snapshot\chromatix_imx298_snapshot_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\cpp\cpp_snapshot\chromatix_imx298_snapshot_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx298_cpp_snapshot.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_cpp_snapshot.so .\src\0309\chromatix_imx298\cpp\cpp_snapshot\chromatix_imx298_snapshot_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\cpp\cpp_snapshot\chromatix_imx298_snapshot_cpp.o -o .\out\libchromatix_imx298_cpp_snapshot.so -shared -o .\out\libchromatix_imx298_cpp_snapshot.so .\src\0309\chromatix_imx298\cpp\cpp_snapshot\chromatix_imx298_snapshot_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\cpp\cpp_snapshot_hdr\chromatix_imx298_snapshot_hdr_cpp.o .\src\0309\chromatix_imx298\cpp\cpp_snapshot_hdr\chromatix_imx298_snapshot_hdr_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_cpp_snapshot_hdr.so .\src\0309\chromatix_imx298\cpp\cpp_snapshot_hdr\chromatix_imx298_snapshot_hdr_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\cpp\cpp_snapshot_hdr\chromatix_imx298_snapshot_hdr_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx298_cpp_snapshot_hdr.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_cpp_snapshot_hdr.so .\src\0309\chromatix_imx298\cpp\cpp_snapshot_hdr\chromatix_imx298_snapshot_hdr_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\cpp\cpp_snapshot_hdr\chromatix_imx298_snapshot_hdr_cpp.o -o .\out\libchromatix_imx298_cpp_snapshot_hdr.so -shared -o .\out\libchromatix_imx298_cpp_snapshot_hdr.so .\src\0309\chromatix_imx298\cpp\cpp_snapshot_hdr\chromatix_imx298_snapshot_hdr_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\cpp\cpp_video\chromatix_imx298_video_cpp.o .\src\0309\chromatix_imx298\cpp\cpp_video\chromatix_imx298_video_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_cpp_video.so .\src\0309\chromatix_imx298\cpp\cpp_video\chromatix_imx298_video_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\cpp\cpp_video\chromatix_imx298_video_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx298_cpp_video.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_cpp_video.so .\src\0309\chromatix_imx298\cpp\cpp_video\chromatix_imx298_video_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\cpp\cpp_video\chromatix_imx298_video_cpp.o -o .\out\libchromatix_imx298_cpp_video.so -shared -o .\out\libchromatix_imx298_cpp_video.so .\src\0309\chromatix_imx298\cpp\cpp_video\chromatix_imx298_video_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\cpp\cpp_video_hdr\chromatix_imx298_video_hdr_cpp.o .\src\0309\chromatix_imx298\cpp\cpp_video_hdr\chromatix_imx298_video_hdr_cpp.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_cpp_video_hdr.so .\src\0309\chromatix_imx298\cpp\cpp_video_hdr\chromatix_imx298_video_hdr_cpp.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\cpp\cpp_video_hdr\chromatix_imx298_video_hdr_cpp.o -Wl,--whole-archive -o .\out\libchromatix_imx298_cpp_video_hdr.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_cpp_video_hdr.so .\src\0309\chromatix_imx298\cpp\cpp_video_hdr\chromatix_imx298_video_hdr_cpp.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\cpp\cpp_video_hdr\chromatix_imx298_video_hdr_cpp.o -o .\out\libchromatix_imx298_cpp_video_hdr.so -shared -o .\out\libchromatix_imx298_cpp_video_hdr.so .\src\0309\chromatix_imx298\cpp\cpp_video_hdr\chromatix_imx298_video_hdr_cpp.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\isp\hfr_120\chromatix_imx298_hfr_120.o .\src\0309\chromatix_imx298\isp\hfr_120\chromatix_imx298_hfr_120.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_hfr_120.so .\src\0309\chromatix_imx298\isp\hfr_120\chromatix_imx298_hfr_120.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\isp\hfr_120\chromatix_imx298_hfr_120.o -Wl,--whole-archive -o .\out\libchromatix_imx298_hfr_120.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_hfr_120.so .\src\0309\chromatix_imx298\isp\hfr_120\chromatix_imx298_hfr_120.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\isp\hfr_120\chromatix_imx298_hfr_120.o -o .\out\libchromatix_imx298_hfr_120.so -shared -o .\out\libchromatix_imx298_hfr_120.so .\src\0309\chromatix_imx298\isp\hfr_120\chromatix_imx298_hfr_120.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\isp\hfr_60\chromatix_imx298_hfr_60.o .\src\0309\chromatix_imx298\isp\hfr_60\chromatix_imx298_hfr_60.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_hfr_60.so .\src\0309\chromatix_imx298\isp\hfr_60\chromatix_imx298_hfr_60.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\isp\hfr_60\chromatix_imx298_hfr_60.o -Wl,--whole-archive -o .\out\libchromatix_imx298_hfr_60.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_hfr_60.so .\src\0309\chromatix_imx298\isp\hfr_60\chromatix_imx298_hfr_60.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\isp\hfr_60\chromatix_imx298_hfr_60.o -o .\out\libchromatix_imx298_hfr_60.so -shared -o .\out\libchromatix_imx298_hfr_60.so .\src\0309\chromatix_imx298\isp\hfr_60\chromatix_imx298_hfr_60.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\isp\hfr_90\chromatix_imx298_hfr_90.o .\src\0309\chromatix_imx298\isp\hfr_90\chromatix_imx298_hfr_90.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_hfr_90.so .\src\0309\chromatix_imx298\isp\hfr_90\chromatix_imx298_hfr_90.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\isp\hfr_90\chromatix_imx298_hfr_90.o -Wl,--whole-archive -o .\out\libchromatix_imx298_hfr_90.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_hfr_90.so .\src\0309\chromatix_imx298\isp\hfr_90\chromatix_imx298_hfr_90.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\isp\hfr_90\chromatix_imx298_hfr_90.o -o .\out\libchromatix_imx298_hfr_90.so -shared -o .\out\libchromatix_imx298_hfr_90.so .\src\0309\chromatix_imx298\isp\hfr_90\chromatix_imx298_hfr_90.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\isp\liveshot\chromatix_imx298_liveshot.o .\src\0309\chromatix_imx298\isp\liveshot\chromatix_imx298_liveshot.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_liveshot.so .\src\0309\chromatix_imx298\isp\liveshot\chromatix_imx298_liveshot.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\isp\liveshot\chromatix_imx298_liveshot.o -Wl,--whole-archive -o .\out\libchromatix_imx298_liveshot.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_liveshot.so .\src\0309\chromatix_imx298\isp\liveshot\chromatix_imx298_liveshot.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\isp\liveshot\chromatix_imx298_liveshot.o -o .\out\libchromatix_imx298_liveshot.so -shared -o .\out\libchromatix_imx298_liveshot.so .\src\0309\chromatix_imx298\isp\liveshot\chromatix_imx298_liveshot.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\isp\preview\chromatix_imx298_preview.o .\src\0309\chromatix_imx298\isp\preview\chromatix_imx298_preview.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_preview.so .\src\0309\chromatix_imx298\isp\preview\chromatix_imx298_preview.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\isp\preview\chromatix_imx298_preview.o -Wl,--whole-archive -o .\out\libchromatix_imx298_preview.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_preview.so .\src\0309\chromatix_imx298\isp\preview\chromatix_imx298_preview.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\isp\preview\chromatix_imx298_preview.o -o .\out\libchromatix_imx298_preview.so -shared -o .\out\libchromatix_imx298_preview.so .\src\0309\chromatix_imx298\isp\preview\chromatix_imx298_preview.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\isp\snapshot\chromatix_imx298_snapshot.o .\src\0309\chromatix_imx298\isp\snapshot\chromatix_imx298_snapshot.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_snapshot.so .\src\0309\chromatix_imx298\isp\snapshot\chromatix_imx298_snapshot.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\isp\snapshot\chromatix_imx298_snapshot.o -Wl,--whole-archive -o .\out\libchromatix_imx298_snapshot.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_snapshot.so .\src\0309\chromatix_imx298\isp\snapshot\chromatix_imx298_snapshot.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\isp\snapshot\chromatix_imx298_snapshot.o -o .\out\libchromatix_imx298_snapshot.so -shared -o .\out\libchromatix_imx298_snapshot.so .\src\0309\chromatix_imx298\isp\snapshot\chromatix_imx298_snapshot.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\isp\snapshot_hdr\chromatix_imx298_snapshot_hdr.o .\src\0309\chromatix_imx298\isp\snapshot_hdr\chromatix_imx298_snapshot_hdr.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_snapshot_hdr.so .\src\0309\chromatix_imx298\isp\snapshot_hdr\chromatix_imx298_snapshot_hdr.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\isp\snapshot_hdr\chromatix_imx298_snapshot_hdr.o -Wl,--whole-archive -o .\out\libchromatix_imx298_snapshot_hdr.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_snapshot_hdr.so .\src\0309\chromatix_imx298\isp\snapshot_hdr\chromatix_imx298_snapshot_hdr.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\isp\snapshot_hdr\chromatix_imx298_snapshot_hdr.o -o .\out\libchromatix_imx298_snapshot_hdr.so -shared -o .\out\libchromatix_imx298_snapshot_hdr.so .\src\0309\chromatix_imx298\isp\snapshot_hdr\chromatix_imx298_snapshot_hdr.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\isp\video\chromatix_imx298_video.o .\src\0309\chromatix_imx298\isp\video\chromatix_imx298_video.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_video.so .\src\0309\chromatix_imx298\isp\video\chromatix_imx298_video.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\isp\video\chromatix_imx298_video.o -Wl,--whole-archive -o .\out\libchromatix_imx298_video.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_video.so .\src\0309\chromatix_imx298\isp\video\chromatix_imx298_video.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\isp\video\chromatix_imx298_video.o -o .\out\libchromatix_imx298_video.so -shared -o .\out\libchromatix_imx298_video.so .\src\0309\chromatix_imx298\isp\video\chromatix_imx298_video.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\isp\video_hdr\chromatix_imx298_video_hdr.o .\src\0309\chromatix_imx298\isp\video_hdr\chromatix_imx298_video_hdr.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_video_hdr.so .\src\0309\chromatix_imx298\isp\video_hdr\chromatix_imx298_video_hdr.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\isp\video_hdr\chromatix_imx298_video_hdr.o -Wl,--whole-archive -o .\out\libchromatix_imx298_video_hdr.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_video_hdr.so .\src\0309\chromatix_imx298\isp\video_hdr\chromatix_imx298_video_hdr.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\isp\video_hdr\chromatix_imx298_video_hdr.o -o .\out\libchromatix_imx298_video_hdr.so -shared -o .\out\libchromatix_imx298_video_hdr.so .\src\0309\chromatix_imx298\isp\video_hdr\chromatix_imx298_video_hdr.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\postproc\chromatix_imx298_sw_post_proc.o .\src\0309\chromatix_imx298\postproc\chromatix_imx298_sw_post_proc.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_postproc.so .\src\0309\chromatix_imx298\postproc\chromatix_imx298_sw_post_proc.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\postproc\chromatix_imx298_sw_post_proc.o -Wl,--whole-archive -o .\out\libchromatix_imx298_postproc.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_postproc.so .\src\0309\chromatix_imx298\postproc\chromatix_imx298_sw_post_proc.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\postproc\chromatix_imx298_sw_post_proc.o -o .\out\libchromatix_imx298_postproc.so -shared -o .\out\libchromatix_imx298_postproc.so .\src\0309\chromatix_imx298\postproc\chromatix_imx298_sw_post_proc.o  
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-gcc.exe -c -fno-exceptions -Wno-multichar -msoft-float -fpic -fPIE -ffunction-sections -fdata-sections -funwind-tables -fstack-protector -Wa,--noexecstack -Werror=format-security -D_FORTIFY_SOURCE=1 -fno-short-enums -march=armv7-a -mfloat-abi=softfp -mfpu=neon -Wno-unused-but-set-variable -fno-builtin-sin -fno-strict-volatile-bitfields -Wno-psabi -mthumb-interwork -DANDROID -fmessage-length=0 -W -Wall -Wno-unused -Winit-self -Wpointer-arith -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -g -Wstrict-aliasing=2 -fgcse-after-reload -frerun-cse-after-loop -frename-registers -mthumb -Os -fomit-frame-pointer -fno-strict-aliasing -MD -I ./src/0309/ -I ./src/actuators -o .\src\0309\chromatix_imx298\versions\chromatix_imx298_versions.o .\src\0309\chromatix_imx298\versions\chromatix_imx298_versions.c 
+
+F:\Upload\CMax_0309>C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -shared -o .\out\libchromatix_imx298_versions.so .\src\0309\chromatix_imx298\versions\chromatix_imx298_versions.o 
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-g++.exe -nostdlib -Wl,-soname,libchromatix_imx132_preview.so -Wl,--gc-sections -Wl,-shared,-Bsymbolic -L.\src\0309\chromatix_imx298\versions\chromatix_imx298_versions.o -Wl,--whole-archive -o .\out\libchromatix_imx298_versions.so -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -shared -o .\out\libchromatix_imx298_versions.so .\src\0309\chromatix_imx298\versions\chromatix_imx298_versions.o  
+
+F:\Upload\CMax_0309>rem C:\SysGCC\arm-eabi\bin\arm-eabi-ld.exe -nostdlib -L.\src\0309\chromatix_imx298\versions\chromatix_imx298_versions.o -o .\out\libchromatix_imx298_versions.so -shared -o .\out\libchromatix_imx298_versions.so .\src\0309\chromatix_imx298\versions\chromatix_imx298_versions.o  
+_90
+	Building: libchromatix_imx298_cpp_hfr_90
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_liveshot_cpp.c
+	LOCAL_MODULE: libchromatix_imx298_cpp_liveshot
+	Building: libchromatix_imx298_cpp_liveshot
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_preview_cpp.c
+	LOCAL_MODULE: libchromatix_imx298_cpp_preview
+	Building: libchromatix_imx298_cpp_preview
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_snapshot_cpp.c
+	LOCAL_MODULE: libchromatix_imx298_cpp_snapshot
+	Building: libchromatix_imx298_cpp_snapshot
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_snapshot_hdr_cpp.c
+	LOCAL_MODULE: libchromatix_imx298_cpp_snapshot_hdr
+	Building: libchromatix_imx298_cpp_snapshot_hdr
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_video_cpp.c
+	LOCAL_MODULE: libchromatix_imx298_cpp_video
+	Building: libchromatix_imx298_cpp_video
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_video_hdr_cpp.c
+	LOCAL_MODULE: libchromatix_imx298_cpp_video_hdr
+	Building: libchromatix_imx298_cpp_video_hdr
+Processing Android.mk:Android.mk
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_hfr_120.c
+	LOCAL_MODULE: libchromatix_imx298_hfr_120
+	Building: libchromatix_imx298_hfr_120
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_hfr_60.c
+	LOCAL_MODULE: libchromatix_imx298_hfr_60
+	Building: libchromatix_imx298_hfr_60
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_hfr_90.c
+	LOCAL_MODULE: libchromatix_imx298_hfr_90
+	Building: libchromatix_imx298_hfr_90
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_liveshot.c
+	LOCAL_MODULE: libchromatix_imx298_liveshot
+	Building: libchromatix_imx298_liveshot
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_preview.c
+	LOCAL_MODULE: libchromatix_imx298_preview
+	Building: libchromatix_imx298_preview
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_snapshot.c
+	LOCAL_MODULE: libchromatix_imx298_snapshot
+	Building: libchromatix_imx298_snapshot
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_snapshot_hdr.c
+	LOCAL_MODULE: libchromatix_imx298_snapshot_hdr
+	Building: libchromatix_imx298_snapshot_hdr
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_video.c
+	LOCAL_MODULE: libchromatix_imx298_video
+	Building: libchromatix_imx298_video
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_video_hdr.c
+	LOCAL_MODULE: libchromatix_imx298_video_hdr
+	Building: libchromatix_imx298_video_hdr
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_sw_post_proc.c
+	LOCAL_MODULE: libchromatix_imx298_postproc
+	Building: libchromatix_imx298_postproc
+Processing Android.mk:Android.mk
+	LOCAL_SRC_FILES: chromatix_imx298_versions.c
+	LOCAL_MODULE: libchromatix_imx298_versions
+	Building: libchromatix_imx298_versions
