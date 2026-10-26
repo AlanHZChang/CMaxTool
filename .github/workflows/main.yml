@@ -1,0 +1,60 @@
+name: Stock Promotion via TG
+
+on:
+  schedule:
+    # 台灣時間 08:00 = UTC 00:00（夜盤 05:00 收完、開盤 09:00 前）
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  send-test-message:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Validate Telegram secrets
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          test -n "$TELEGRAM_BOT_TOKEN" || (echo "Missing TELEGRAM_BOT_TOKEN" && exit 1)
+          test -n "$TELEGRAM_CHAT_ID" || (echo "Missing TELEGRAM_CHAT_ID" && exit 1)
+
+      - name: Send stock promotion message
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PROMOTION_URL: ${{ vars.PROMOTION_URL }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.parse
+          import urllib.request
+
+          token = os.environ["TELEGRAM_BOT_TOKEN"]
+          chat_id = os.environ["TELEGRAM_CHAT_ID"]
+          repo = os.environ["GITHUB_REPOSITORY"]
+          run_id = os.environ["GITHUB_RUN_ID"]
+          promotion_url = os.environ["PROMOTION_URL"]
+
+          text = f"測試訊息\n{promotion_url}"
+          payload = urllib.parse.urlencode({"chat_id": chat_id, "text": text}).encode()
+          url = f"https://api.telegram.org/bot{token}/sendMessage"
+
+          req = urllib.request.Request(url, data=payload, method="POST")
+          try:
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  body = resp.read().decode("utf-8")
+          except Exception as exc:
+              print(f"Telegram request failed: {exc}", file=sys.stderr)
+              raise
+
+          data = json.loads(body)
+          print(json.dumps({k: data.get(k) for k in ("ok", "description")}, ensure_ascii=False))
+          if not data.get("ok"):
+              raise SystemExit("Telegram API returned ok=false")
+          PY
